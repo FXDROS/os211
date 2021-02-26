@@ -2,20 +2,29 @@
   color: black;
   background-color: #ff6016;
   font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
   display: flex;
   background-color: #ffb222;
-  width: 80%;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .right1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .right2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
