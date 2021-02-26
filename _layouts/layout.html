@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+    {% include head.html %}
     <body>
-        <div>
-            {% if page.title %}{{ page.title | escape }}
-            {% else %}{{ site.title | escape }}{% endif %}
-        </div>
-        <div>
-            {% if page.author %}{{ page.author | escape }}
-            {% else %}{{ site.author | escape }}{% endif %}
-        </div>
-        <div>
-            {% if page.address %}{{ page.address | escape }}
-            {% else %}{{ site.address | escape }}{% endif %}
-        </div>
+        <header>
+            <div class="row">
+                <div class="column left">
+                <img src="{{ site.baseurl }}/assets/images/korosensei.jpg" alt="Koro Sensei" style="width:130px">
+                </div>
+                <div class="column right1">
+                {% if page.title %}{{ page.title | escape }}
+                {% else %}{{ site.title | escape }}{% endif %}
+                </div>
+                <div class="column right2">
+                {% if page.author %}{{ page.author | escape }}
+                {% else %}{{ site.author | escape }}{% endif %}
+                ---
+                {% if page.address %}{{ page.address | escape }}
+                {% else %}{{ site.address | escape }}{% endif %}
+                </div>
+            </div>
+        </header>
         <section>
             {{ content }}
         </section>
