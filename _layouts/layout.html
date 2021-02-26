@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div>
+            {% if page.title %}{{ page.title | escape }}
+            {% else %}{{ site.title | escape }}{% endif %}
+        </div>
+        <div>
+            {% if page.author %}{{ page.author | escape }}
+            {% else %}{{ site.author | escape }}{% endif %}
+        </div>
+        <div>
+            {% if page.address %}{{ page.address | escape }}
+            {% else %}{{ site.address | escape }}{% endif %}
+        </div>
+        <section>
+            {{ content }}
+        </section>
+    </body>
+</html>
