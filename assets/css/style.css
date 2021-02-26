@@ -9,7 +9,7 @@
 .row {
   display: flex;
   background-color: #ffb222;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem 3rem 1rem 1rem;
 }
 
@@ -20,7 +20,7 @@
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 1.5rem;
 }
 
