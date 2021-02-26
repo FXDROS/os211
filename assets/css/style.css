@@ -1,6 +1,9 @@
 .plainclass {
   color: black;
   background-color: #ff6016;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
