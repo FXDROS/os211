@@ -1,7 +1,12 @@
+.plainclass {
+  color: black;
+  background-color: #ff6016;
+}
+
 .column {
   float: left;
   display: inline-block;
-  background: #808080;
+  background: #ffb222;
   height: 130px;
   width: 100%;
   padding-top: 10px;
