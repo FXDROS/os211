@@ -1,10 +1,13 @@
 .plainclass {
   color: black;
   background-color: #ff6016;
+}
+
+.container {
   max-width: 70%;
   margin: 0 auto;
   font-size: 1.1em;
-  font-family: verdana, arial, helvetica, san-serif;
+  font-family: verdana, arial, helvetica, sans-serif;
   text-align: justify;
 }
 
