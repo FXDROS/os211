@@ -9,15 +9,18 @@
 .row {
   display: flex;
   background-color: #ffb222;
-  align-items: center;
-  width: fit-content;
+  justify-content: center;
   padding: 1rem 3rem 1rem 1rem;
+}
+
+.container {
+  max-width: 1000px;
 }
 
 .right {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 1.5rem;
 }
 
