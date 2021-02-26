@@ -1,52 +1,21 @@
 .plainclass {
   color: black;
   background-color: #ff6016;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.container {
-  max-width: 70%;
-  margin: 0 auto;
-  font-size: 1.1em;
-  font-family: verdana, arial, helvetica, sans-serif;
-  text-align: justify;
-}
-
-.column {
-  float: left;
-  display: inline-block;
-  background: #ffb222;
-  height: 130px;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: left;
-}
-
-.left {
-  width: 130px;
+  background-color: #ffb222;
+  width: 80%;
 }
 
 .right1 {
-  height: 80px;
-  width: calc(100% - 200px);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
 .right2 {
-  height: 50px;
-  width: calc(100% - 200px);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 500;
 }

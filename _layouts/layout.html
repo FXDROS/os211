@@ -2,28 +2,26 @@
 <html lang="en">
     {% include head.html %}
     <body class="plainclass">
-        <header>
             <div class="row">
                 <div class="column left">
-                <img src="{{ site.baseurl }}/assets/images/zenitsu.jpg" alt="Zenitsu" style="width:130px">
+                    <img src="{{ site.baseurl }}/assets/images/zenitsu.jpg" alt="Zenitsu" style="width:130px">
                 </div>
-                <div class="column right1">
-                {% if page.title %}{{ page.title | escape }}
-                {% else %}{{ site.title | escape }}{% endif %}
-                </div>
-                <div class="column right2">
-                {% if page.author %}{{ page.author | escape }}
-                {% else %}{{ site.author | escape }}{% endif %}
-                ---
-                {% if page.address %}{{ page.address | escape }}
-                {% else %}{{ site.address | escape }}{% endif %}
+                <div class="right">
+                    <div class="column right1">
+                        {% if page.title %}{{ page.title | escape }}
+                        {% else %}{{ site.title | escape }}{% endif %}
+                    </div>
+                    <div class="column right2">
+                        {% if page.author %}{{ page.author | escape }}
+                        {% else %}{{ site.author | escape }}{% endif %}
+                        ---
+                        {% if page.address %}{{ page.address | escape }}
+                        {% else %}{{ site.address | escape }}{% endif %}
+                    </div>
                 </div>
             </div>
-        </header>
-        <section>
             <div>
             {{ content }}
             </div>
-        </section>
     </body>
 </html>
