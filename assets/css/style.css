@@ -1,6 +1,11 @@
 .plainclass {
   color: black;
   background-color: #ff6016;
+  max-width: 70%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  font-family: verdana, arial, helvetica, san-serif;
+  text-align: justify;
 }
 
 .column {
