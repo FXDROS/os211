@@ -20,8 +20,5 @@ ZCZC W01 15 L09 AsDos: asking kawung ssh setup
 ZCZC W01 15 L01 SCELE related; enter cyber-security discussion
 ZCZC W01 60 L06 Reading References/Books/Documents
 ZCZC W01 30 L11 Assignment #1
-<<<<<<< HEAD
 ZCZC W01 60 L06 Reading References/Books/Documents
-=======
 ZCZC W01 40 L11 Assignment #1
->>>>>>> 3376a0b98335e73fdbcbebd62158d420d4d016dc
