@@ -22,3 +22,7 @@ ZCZC W01 60 L06 Reading References/Books/Documents
 ZCZC W01 30 L11 Assignment #1
 ZCZC W01 60 L06 Reading References/Books/Documents
 ZCZC W01 40 L11 Assignment #1
+ZCZC W01 30 L23 Discord: discussion, etc.
+ZCZC W01 25 L06 Reading References/Books/Documents
+
+====W01 : 350===

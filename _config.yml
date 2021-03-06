@@ -1,5 +1,4 @@
 title: "Operating Systems 2021-1 (OS211)"
-version: "0026e---23-Feb-2021"
 copyright: "2021-2021"
 description: >-
   This Is How Me Do It!
@@ -8,12 +7,10 @@ google_analytics: "UA-89852122-6"
 author: "FXDROS"
 address: "Tangsel"
 sitemap: "true"
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+
 urlweb: "https://FXDROS.github.io/os211/"
 urlcontact: "TBS"
 urlgithub: "https://github.com/FXDROS/os211/"
 urlghpage: "https://FXDROS.github.io/os211/"
-keywords: "jekyll, testing"
+
 github: [metadata]
