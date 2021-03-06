@@ -8,7 +8,7 @@
 
 .row {
   display: flex;
-  background-color: #ffffff;
+  background-color: #ffde22;
   justify-content: space-evenly;
   padding: 1rem 3rem 1rem 1rem;
 }
@@ -57,7 +57,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #ffde22;
   margin: 0.5rem 0 1.5rem 0;
   padding: 0.5rem;
 }
