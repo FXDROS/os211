@@ -9,8 +9,7 @@
                 </div>
                 <div class="right">
                     <div class="column right1">
-                        {% if page.title %}{{ page.title | escape }}
-                        {% else %}{{ site.title | escape }}{% endif %}
+                        {{ site.title | escape }}
                     </div>
                     <div class="column right2">
                         {% if page.author %}{{ page.author | escape }}
