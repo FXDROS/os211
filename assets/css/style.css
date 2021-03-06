@@ -34,6 +34,10 @@
   font-weight: 500;
 }
 
+.content {
+  padding: 1rem;
+}
+
 .content,
 .content a,
 .content li {
