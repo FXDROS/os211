@@ -1,6 +1,6 @@
 .plainclass {
   color: black;
-  background-color: #ff6016;
+  background-color: #ffb222;
   font-family: Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
 
 .row {
   display: flex;
-  background-color: #ffb222;
+  background-color: #ff6016;
   justify-content: space-evenly;
   padding: 1rem 3rem 1rem 1rem;
 }
