@@ -7,10 +7,12 @@ google_analytics: "UA-89852122-6"
 author: "FXDROS"
 address: "Tangsel"
 sitemap: "true"
-
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 urlweb: "https://FXDROS.github.io/os211/"
 urlcontact: "TBS"
 urlgithub: "https://github.com/FXDROS/os211/"
 urlghpage: "https://FXDROS.github.io/os211/"
-
+keywords: "jekyll, testing"
 github: [metadata]
