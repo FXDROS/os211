@@ -29,3 +29,4 @@ ZCZC W01 30 L11 Assignment #1
 ZCZC W01 30 L11 Assignment #1
 ZCZC W01 15 L22 YouTube: basics to regular expression
 ZCZC W01 50 L11 Assignment #1
+ZCZC W01 50 L23 Discord: discussion, etc.
