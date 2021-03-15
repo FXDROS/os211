@@ -1,27 +1,41 @@
-#!/bin/bash
-# Written by Cicak bin Kadal
-# Tue 13 Oct 2020 10:37:14 AM WIB
-
-FILES="my*.txt my*.sh"
+REC1="operatingsystems@vlsm.org"
+REC2="dionisius.baskoro@ui.ac.id"
+FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
 
-echo "rm -f $SHA $SHA.asc"
-rm -f $SHA $SHA.asc
+[ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
+pushd $HOME/RESULT
+for II in W?? ; do
+	    [ -d $II ] || continue
+	        TARFILE=my$II.tar.bz2
+		    TARFASC=$TARFILE.asc
+		        rm -f $TARFILE $TARFASC
+			    echo "tar cfj $TARFILE $II/"
+			        tar cfj $TARFILE $II/
+				    echo "gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
+				        gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE
+				done
+				popd
 
-echo "sha256sum $FILES > $SHA"
-sha256sum $FILES > $SHA
+				rm -f $HOME/RESULT/fakeDODOL
+				for II in $HOME/RESULT/myW*.tar.bz2.asc $HOME/RESULT/fakeDODOL ; do
+					   echo "Check and move $II..."
+					      [ -f $II ] && mv -f $II .
+				      done
 
-echo "sha256sum -c $SHA"
-sha256sum -c $SHA
+				      echo "rm -f $SHA $SHA.asc"
+				      rm -f $SHA $SHA.asc
 
-echo "gpg -o $SHA.asc -a -sb $SHA"
-gpg -o $SHA.asc -a -sb $SHA
+				      echo "sha256sum $FILES > $SHA"
+				      sha256sum $FILES > $SHA
 
-echo "gpg --verify $SHA.asc $SHA"
-gpg --verify $SHA.asc $SHA
+				      echo "sha256sum -c $SHA"
+				      sha256sum -c $SHA
 
-exit 0
+				      echo "gpg -o $SHA.asc -a -sb $SHA"
+				      gpg -o $SHA.asc -a -sb $SHA
 
-# Mon Sep 28 21:05:04 WIB 2020
-# Tue 29 Sep 2020 11:02:39 AM WIB
+				      echo "gpg --verify $SHA.asc $SHA"
+				      gpg --verify $SHA.asc $SHA
 
+				      exit 0
