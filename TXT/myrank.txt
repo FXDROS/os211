@@ -2,3 +2,6 @@
 ZCZC W01 galacticor
 ZCZC W01 ghifariaulia
 ZCZC W01 garyteofanus
+ZCZC W02 GerradND
+ZCZC W02 galacticor
+ZCZC W02 ghifariaulia
