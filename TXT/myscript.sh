@@ -2,7 +2,6 @@ REC1="operatingsystems@vlsm.org"
 REC2="dionisius.baskoro@ui.ac.id"
 FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
-
 [ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
 pushd $HOME/RESULT
 for II in W?? ; do
@@ -18,7 +17,7 @@ for II in W?? ; do
 				popd
 
 				rm -f $HOME/RESULT/fakeDODOL
-				for II in $HOME/RESULT/myW*.tar.bz2.asc $HOME/RESULT/fakeDODOL ; do
+				for II in $HOME/RESULT/myW*.tar.bz2.asc ; do
 					   echo "Check and move $II..."
 					      [ -f $II ] && mv -f $II .
 				      done
@@ -39,3 +38,4 @@ for II in W?? ; do
 				      gpg --verify $SHA.asc $SHA
 
 				      exit 0
+
