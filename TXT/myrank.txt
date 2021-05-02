@@ -14,3 +14,6 @@ ZCZC W04 ghifariaulia
 ZCZC W05 garyteofanus
 ZCZC W05 ghifariaulia
 ZCZC W05 GerradND
+ZCZC W06 ghifariaulia
+ZCZC W06 garyteofanus
+ZCZC W06 haikalSusanto
